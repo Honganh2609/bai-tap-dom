@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, ‘Segoe UI’, Roboto, Oxygen, Ubuntu, Cantarell, ‘Open Sans’, ‘Helvetica Neue’, sans-serif;
+}
+.container{
+    width:1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Column system*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*Flex-boxing*/
+.row-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    flex-direction:row;
+}
+.flex-container{
+    display: flex;
+}
+.position-relative{
+    position:relative;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.z-1{
+    z-index: 1;
+}
+.position-absolute{
+    position: absolute;
+}
+.width-100per{
+    width:100%;
+}
+.text-white{
+    color:white;
+}
+.text-black{
+    color:black;
+}
+.new-movie-listing{
+    height:180px;
+    width: 320px;
+}
+.height-81{
+    height: 81px;
+}
+.new-video-listing-pad{
+    padding: 30px 15px 10px;
+}
+.background-trans{
+    background: transparent;
+}
+.new-video-description{
+    background-image: linear-gradient(transparent,rgba(0,0,0,.1),rgba(0,0,0,.3),rgba(0,0,0,.5),rgba(0,0,0,.7),rgba(0,0,0,.9));
+    bottom:0;
+}
+.text-no-decor{
+    text-decoration: none;
+}
+.text-25{
+    font-size: 25px;
+}
+.text-500{
+    font-weight: 500;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.float-left{
+    float:left;
+}
+.img{
+    border:0;
+    max-width: 100%;
+    height: auto;
+}
+.text-16{
+    font-size: 16px;
+}
+.text-left{
+    text-align: left;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.mb-2{
+    margin-bottom: 2px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.hidden{
+    overflow:hidden;
+}
+.ellipsis{
+    text-overflow: ellipsis;
+}
+.text-12{
+    font-size: 12px;
+}
+.float-right{
+    float: right;
+}
+.space-nowrap{
+    white-space: nowrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.gap-10{
+    gap: 10px;
+}
+.display-block{
+    display:block;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.border-item {
+    border-radius: 45px 45px 10px 10px;
+}

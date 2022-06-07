@@ -1,0 +1,184 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+table {
+    caption-side: top;
+    border-collapse: collapse;
+}
+tbody tr,
+thead th,
+tbody td {
+  border: 1px solid grey;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form {
+    width: 432px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #d2d2d2;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.gap10 {
+    gap:10px;
+}
+.row-wrap {
+    flex-wrap:wrap;
+}
+.col-1 {
+    width:8.333333%;
+}
+.col-2 {
+    width: 16.666667%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333333%;
+}
+.col-5 {
+    width:41.666667%;
+}
+.col-6 {
+    width:50%;
+}
+.col-7 {
+    width:57.333333%;
+}
+.col-8 {
+    width:66.666667%;
+}
+.col-9 {
+    width:75%;
+}
+.col-10 {
+    width:83.333333%;
+}
+.col-11 {
+    width:91.666667%;
+}
+.col-12 {
+    width: 100%;
+}
+.offset-1 {
+    margin-left: 8.333333%;
+}
+.offset-2 {
+    margin-left: 16.666667%;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.d-flex {
+    display: flex;
+}
+.j-center {
+    justify-content: center;
+}
+.j-end {
+    justify-content: end;
+    }
+.j-space-between {
+    justify-content: space-between;
+}
+.a-start{
+    align-items: flex-start;
+}
+.a-center {
+    align-items: center;
+}
+.a-end {
+    align-items: flex-end;
+}
+.flex-warp {
+    flex-wrap: wrap;
+}
+.text-bold {
+    font-weight: 700;
+}
+.text-red {
+    color:red;
+}
+.text-24 {
+    font-size: 24px;
+}
+.text-32 {
+    font-size: 32px;
+}
+.text-15 {
+    font-size: 15px;
+}
+.text-12 {
+    font-size: 12px;
+}
+.text-20 {
+    font-size: 20px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.p10 {
+    padding: 10px;
+}
+.br-8{
+    border-radius: 8px;
+}
+.border {
+    border:1px solid #d2d2d2
+}
+.width-399 {
+    width: 399px;
+}
+.width-125 {
+    width: 125px;
+}
+.pd-form {
+    padding: 8px 26px;
+}
+.mgb-10{
+    margin-bottom: 10px;
+}
+.right-10 {
+    right: -10px;
+}
+.radio-form {
+    position:relative;
+    left: 40px;
+}
+.bg-green {
+    background-color: green;
+}
+.text-white {
+    color: #fff;
+}
+.border-top {
+    border-top: 1px solid #d2d2d2;
+}
+.pdt-20 {
+padding-top: 20px;
+}
+.pdb-20{
+    padding-bottom: 20px;
+}
+/* chi tiết để sau
+thứ tự: container->row->col*/
